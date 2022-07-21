@@ -42,7 +42,6 @@ env:
   
   # DON'T CHANGE
   ECS_TASK_DEFINITION_FILE: task-definition.json  # placeholder name for the task definition json file
-  TOKEN_BOT: ${{secrets.TOKEN_BOT}}               # discord application token of the bot
 
 permissions:
   contents: read
